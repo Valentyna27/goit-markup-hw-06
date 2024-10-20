@@ -4,42 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap"
+      rel="stylesheet"
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
+        <a class="logo" href="./index.html">WebStudio</a>
+
+        <ul class="nav-panel">
           <li>
-            <a href="">Studio</a>
+            <a class="interaction" href="">Studio</a>
           </li>
           <li>
-            <a href="">Portfolio</a>
+            <a class="interaction" href="">Portfolio</a>
           </li>
           <li>
-            <a href="">Contacts</a>
+            <a class="interaction" href="">Contacts</a>
           </li>
         </ul>
       </nav>
 
       <address>
-        <ul>
+        <ul class=address-contacts">
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="contact" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
     <main>
       <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="title">Effective Solutions for Your Business</h1>
+        <button class="page-button" type="button">Order Service</button>
       </section>
       <section>
-        <h2>Description</h2>
         <ul>
           <li>
             <h3>Strategy</h3>
@@ -72,7 +80,7 @@
         </ul>
       </section>
       <section>
-        <h2>Our Team</h2>
+        <h2 class="title-1">Our Team</h2>
         <ul>
           <li>
             <img
@@ -81,12 +89,17 @@
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
+            <h3 class="title-2">Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
           <li>
-            <img src="./images/2.jpg" alt="frontend" width="264" height="260" />
-            <h3>Tom Ford</h3>
+            <img
+              src="./images/2.jpg"
+              alt="frontend"
+              width="264"
+              height="260"
+            />
+            <h3 class="title-2">Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
@@ -96,7 +109,7 @@
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
+            <h3 class="title-2">Camila Garcia</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -106,8 +119,43 @@
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
+            <h3 class="title-2">Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="title-1">Our Portfolio</h2>
+        <ul>
+          <li>
+            <img src="./images/5.jpg" width="360" height="300" />
+            <h3 class="title-2">Banking App</h3>
+            <p class="text">App</p>
+          </li>
+          <li>
+            <img src="./images/6.jpg" width="360" height="300" />
+            <h3 class="title-2">Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/7jpg.jpg" width="360" height="300" />
+            <h3 class="title-2">Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img src="./images/8.jpg" width="360" height="300" />
+            <h3 class="title-2">Taxi Service</h3>
+            <p">Marketing</p>
+          </li>
+          <li>
+            <img src="./images/9.jpg" width="360" height="300" />
+            <h3 class="title-2">Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img src="./images/10.jpg" width="360" height="300" />
+            <h3 class="title-2">Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>

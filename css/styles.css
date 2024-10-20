@@ -1,0 +1,73 @@
+body{
+    font-family:'Roboto',sans-serif;
+    color: #2E2F42;
+    font-size: 16px;
+    letter-spacing: 2%;
+    line-height: 1.5;
+}
+
+.logo:active
+
+.nav-panel .interaction{
+   color: #2E2F42
+}
+
+.nav-panel .interaction:hover,
+.nav-panel .interaction:focus{
+   color: #404BBF
+}
+
+.address-contacts .contacts{
+    font-size: 12px;
+    letter-spacing: 4%;
+    line-height: 1.33;
+    text-decoration: underline;
+    color: #2E2F42
+ }
+
+ .address-contacts .contacts:hover,
+.address-contacts .contacts:focus{
+   font-size: 12px;
+   letter-spacing: 4%;
+   line-height: 1.33;
+   text-decoration: underline;
+   color: #404BBF
+}
+
+.title{
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.page-button{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 4%;
+    color:#FFFFFF;
+    background-color:#4D5AE5;
+    cursor: pointer;
+}
+
+.page-button:hover{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 4%;
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.title-1{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.title-2{
+    font-size: 20px;
+    letter-spacing: 2%;
+}
