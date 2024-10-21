@@ -54,14 +54,15 @@ body{
 background-color: #2e2f42 ;
 } 
 
-.main-title{
-    font-weight: bold;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing:0.02em;
-    text-align: center;
-    color:#ffffff;
+.first-title{
+color:#ffffff;
+font-weight: bold;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
 }
+
 
 .page-button{
     font-size: 16px;
