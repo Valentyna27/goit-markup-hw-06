@@ -29,7 +29,7 @@ body{
 }
 
 .link:hover,
-.linl:focus{
+.link:focus{
    color:  #404bbf ;
    font-weight: 500;
 }
@@ -42,7 +42,7 @@ body{
 .contacts{
     color:#434455;
 }
-.contacts:focus,
+.contacts:hover,
 .contacts:focus{
     color:#404bbf;
 }
