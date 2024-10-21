@@ -1,5 +1,5 @@
 body{
-    font-family:'Roboto',sans-serif;
+    font-family:'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     font-size: 16px;
@@ -8,8 +8,8 @@ body{
     font-weight: 500;
 }
 
-.logo:active{
-    font-family: 'Raleway', sans-serif;
+.logo{
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -23,13 +23,13 @@ body{
 }
 
 
-.main-list{
+.link{
    color:  #2e2f42  ;
    font-weight: 500;
 }
 
-.main-list:hover,
-.main-lisn:focus{
+.link:hover,
+.linl:focus{
    color:  #404bbf ;
    font-weight: 500;
 }
@@ -39,12 +39,11 @@ body{
     text-decoration: underline; 
 }
 
-.mail-tel{
+.contacts{
     color:#434455;
 }
-
-.mail-tel:hover,
-.mail-tel:focus{
+.contacts:focus,
+.contacts:focus{
     color:#404bbf;
 }
 
@@ -85,8 +84,7 @@ text-align: center;
     font-weight: 500;
 }
 
-
-.second-section .sc2-title{
+.second-title{
     font-weight:500;
     font-size: 20px;
     line-height: 1.2;
@@ -94,7 +92,7 @@ text-align: center;
     color: #2e2f42 ;
 }
 
-.second-section .sc2-text{
+.second-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -106,7 +104,7 @@ text-align: center;
     background-color: #F4F4FD; 
 }
 
-.sub-title-1{
+.sub-title-one{
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 0.02em;
@@ -117,11 +115,11 @@ text-align: center;
 }
 
 
-.sc3-list{
+.third-list{
     background-color: #FFFFFF;
 }
 
-.sc3-title{
+.third-title{
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
@@ -129,14 +127,14 @@ text-align: center;
     color:#2e2f42 ;
 }
 
-.sc3-text{
+.third-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
 }
 
-.sub-title-2{
+.sub-title-two{
     font-size: 36px;
     text-align: center;
     line-height: 1.11;
@@ -145,7 +143,7 @@ text-align: center;
     color:#2e2f42 ;
 }
 
-.sc4-title{
+.fourth-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -153,7 +151,7 @@ text-align: center;
     color:#2e2f42;
 }
 
-.sc4-text{
+.fourth-text{
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
@@ -170,7 +168,7 @@ text-align: center;
 .page-footer{
     background-color:#2e2f42;
 }
-.main-logo:active{
+.main-logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
