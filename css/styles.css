@@ -8,7 +8,7 @@ body{
     font-weight: 500;
 }
 
-.nav-panel .logo:active{
+.logo:active{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -18,17 +18,18 @@ body{
     color:#4d5ae5;
 }
 
-.nav-panel .studio-logo{
-    color: #2e2f42; 
+.studio-logo{
+    color: #2e2f42;
 }
 
-.nav-panel .interaction{
+
+.main-list{
    color:  #2e2f42  ;
    font-weight: 500;
 }
 
-.nav-panel .interaction:hover,
-.nav-panel .interaction:focus{
+.main-list:hover,
+.main-lisn:focus{
    color:  #404bbf ;
    font-weight: 500;
 }
@@ -38,15 +39,13 @@ body{
     text-decoration: underline; 
 }
 
-.a-contacts .mail-tel{
+.mail-tel{
     color:#434455;
-
 }
 
-.a-contacts .mail-tel:hover,
-.a-contacts .mail-tel:focus{
+.mail-tel:hover,
+.mail-tel:focus{
     color:#404bbf;
-
 }
 
 
@@ -107,7 +106,7 @@ text-align: center;
     background-color: #F4F4FD; 
 }
 
-.third-section .sub-title-1{
+.sub-title-1{
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 0.02em;
@@ -115,13 +114,14 @@ text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
     text-align: center;
-} 
+}
+
 
 .sc3-list{
     background-color: #FFFFFF;
 }
 
-.sc3-list .sc3-title{
+.sc3-title{
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
@@ -129,14 +129,14 @@ text-align: center;
     color:#2e2f42 ;
 }
 
-.sc3-list .sc3-text{
+.sc3-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
 }
 
-.fourth-section .sub-title-2{
+.sub-title-2{
     font-size: 36px;
     text-align: center;
     line-height: 1.11;
@@ -145,7 +145,7 @@ text-align: center;
     color:#2e2f42 ;
 }
 
-.sc4-list .sc4-title{
+.sc4-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -153,7 +153,7 @@ text-align: center;
     color:#2e2f42;
 }
 
-.sc4-list .sc4-text{
+.sc4-text{
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
@@ -170,8 +170,7 @@ text-align: center;
 .page-footer{
     background-color:#2e2f42;
 }
-
-.page-footer .main-logo:active{
+.main-logo:active{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;

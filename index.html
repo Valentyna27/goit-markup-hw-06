@@ -4,18 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com/"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <ul class="nav-panel">
-          <li>
-            <a class="logo" href="./index.html">Web<span class="studio-logo">Studio</span></a>
-          </li>
+        <a class="logo" href="./index.html">Web<span class="studio-logo">Studio</span></a>
+        <ul class="main-list">
           <li>
             <a class="interaction" href="">Studio</a>
           </li>
@@ -29,12 +28,12 @@
       </nav>
 
       <address class="a-contacts">
-        <ul class="mail-tel">
+        <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="mail-tel" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="main-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
@@ -44,7 +43,8 @@
         <h1 class="first-title">Effective Solutions for Your Business</h1>
         <button class="page-button" type="button">Order Service</button>
       </section>
-      <section class="second-section">
+      <section id="goals" class="second-section">
+        <h2 hidden>Our goals</h2>
         <ul class="sc2-list">
           <li>
             <h3 class="sc2-title">Strategy</h3>
@@ -76,7 +76,7 @@
           </li>
         </ul>
       </section>
-      <section class="third-section">
+      <section id="our-team">
         <h2 class="sub-title-1">Our Team</h2>
         <ul class="sc3-list">
           <li>
@@ -121,7 +121,7 @@
           </li>
         </ul>
       </section>
-      <section class="fourth-section">
+      <section id="portfolio">
         <h2 class="sub-title-2">Our Portfolio</h2>
         <ul class="sc4-list">
           <li>
