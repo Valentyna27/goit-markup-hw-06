@@ -28,9 +28,12 @@ body{
    font-weight: 500;
 }
 
-.link:hover,
+.link:hover{
+    color: #404bbf ;
+}
+
 .link:focus{
-   color:  #404bbf ;
+   color:#404bbf;
    font-weight: 500;
 }
 
