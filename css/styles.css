@@ -39,6 +39,7 @@ img{
 
 .header-container{
     display: flex;
+    justify-content: center;
 }
 
 .header-logo-link{
@@ -92,9 +93,9 @@ img{
 }
 
 .navigation-list{
-display: flex;
-gap:40px;
-margin-right: 328px;
+    display: flex;
+    gap:40px;
+    margin-right: 328px;
 }
 
 .header{
@@ -103,7 +104,7 @@ margin-right: 328px;
     background-color: #FFFFFF;
 }
 
-.hero-section,
+
 .goals-section,
 .team-section,
 .portfolio-section{
@@ -113,11 +114,10 @@ margin-right: 328px;
 
 .hero-section{
     background-color: #2e2f42;
-    min-width: 100vh;
     border: 1px solid #000000;
     padding: 188px 0;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
 
 
 .hero-title{
@@ -131,7 +131,6 @@ margin-right: 328px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero-button{
@@ -158,9 +157,17 @@ margin-right: 328px;
 }
 
 
-
-.visually-hidden{
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .goals-title{
@@ -185,6 +192,7 @@ margin-right: 328px;
 .goals-list{
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 
 .goals-item{
@@ -227,6 +235,8 @@ margin-right: 328px;
 .team-list{
     display: flex;
     gap: 24px;
+    justify-content: center;
+    align-items: center;
 }
 
 .team-items{
@@ -273,6 +283,7 @@ margin-right: 328px;
 .portfolio-list
 {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
@@ -311,6 +322,7 @@ margin-right: 328px;
     text-transform: uppercase;
     color:#4d5ae5;
     display: inline-block;
+    justify-content: flex-start;
     margin-bottom: 16px;
 }
 
