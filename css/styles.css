@@ -147,6 +147,7 @@ img{
     border: none;
     margin-right: auto;
     margin-left: auto;
+    cursor: pointer;
 }
 
 .hero-button:hover,
