@@ -571,6 +571,8 @@ img {
 .modal {
   position: absolute;
   padding: 72px 24px 24px 24px;
+  min-height: 584px; 
+  width: 408px; 
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -669,8 +671,7 @@ img {
 .textarea-modal {
   width: 360px;
   height: 120px;
-  padding-top: 8px;
-  padding-left: 16px;
+  padding: 8px 16px; 
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -703,7 +704,7 @@ img {
   color: #8e8f99;
 }
 
-.privacy-limk {
+.privacy-link {
   color: #4d5ae5;
 }
 
