@@ -512,6 +512,7 @@ img {
   font-size: 12px;
   letter-spacing: 0.04em;
   line-height: 2;
+  outline: transparent;
 }
 
 .footer-input::placeholder {
@@ -713,7 +714,6 @@ img {
 
 .checkbox-container {
   margin-bottom: 24px;
-
 }
 
 .custom-checkbox{
@@ -750,14 +750,14 @@ img {
 }
 
 .checkbox-label{
+  display: inline-flex;
+  align-items: center;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+
 
 }
 
@@ -782,3 +782,4 @@ img {
 .modal-button:hover {
   background-color: #404bbf;
 }
+
