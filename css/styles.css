@@ -1277,6 +1277,9 @@ gap:8px;
   .modal-button:hover {
     background-color: #404bbf;}
 
+    .modal-button{
+      pointer-events: all;
+    }
 }
   
 }
